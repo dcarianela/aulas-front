@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+    
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gold;
+}
+
+.container {
+    box-shadow: black 0 0 10px;
+}
+
+.exercicio { display: none;}
+
+.topo {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: solid 3px;
+    padding: 15px;
+    position: relative;
+}
+
+.menu { 
+        position: absolute;
+        right: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 60%;
+        height: 20%;
+        background-color: black; 
+        a { color: white;
+        text-decoration: none; }
+    }
+
+.titulo {
+    justify-content: space-evenly;
+}
+
+hr {
+    border: solid 2px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+img {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+article {
+    margin-top: 3%;
+    width: 45%;
+    height: 48%;
+    background-color: white;
+    border-radius: 8px;
+    p, h2 { padding: 10px;}
+}
+
+
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="topo">
+            <h1 class="titulo">
+                👻 <span class="exercicio">Exercício</span>
+            </h1>
+            <nav class="menu">
+                <a href="">Link 1</a>
+                <a href="">Link 2</a>
+                <a href="">Link 3</a>
+                <a href="">Link 4</a>
+            </nav>
+
+        </header>
+
+        <main class="conteudo">
+            <article class="cachorro">
+                <img src="/aulas-front/imagens/cachorro.jpg" alt="">
+                <h2>Cachorro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, expedita enim eaque ad impedit delectus suscipit saepe alias excepturi consectetur.</p>
+            </article>
+        
+            <article class="cidade">
+                <img src="/aulas-front/imagens/cidade.jpg" alt="">
+                <h2>Cidade</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, expedita enim eaque ad impedit delectus suscipit saepe alias excepturi consectetur.</p>
+            </article>
+            <article class="escadas">
+                <img src="/aulas-front/imagens/escadas.jpg" alt="">
+                <h2>Escadas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, expedita enim eaque ad impedit delectus suscipit saepe alias excepturi consectetur.</p>
+            </article>
+            <article class="trilhos">
+                <img src="/aulas-front/imagens/trilhos.jpg" alt="">
+                <h2>Trilhos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, expedita enim eaque ad impedit delectus suscipit saepe alias excepturi consectetur.</p>
+            </article>
+            <article class="montanhas">
+                <img src="/aulas-front/imagens/montanhas.jpg" alt="">
+                <h2>Montanhas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, expedita enim eaque ad impedit delectus suscipit saepe alias excepturi consectetur.</p>
+            </article>
+            <article class="luzes">
+                <img src="/aulas-front/imagens/luzes.jpg" alt="">
+                <h2>Luzes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, expedita enim eaque ad impedit delectus suscipit saepe alias excepturi consectetur.</p>
+            </article>
+        </main>
+
+        <footer class="rodape">
+            <div class="contato">
+                <h2> Entre em contato conosco
+                    <a href="">4002-8922</a>
+                    <a href="">vou@mmt.com</a>
+                </h2>
+            </div>
+            <div class="rsociais">
+                <h2>Siga-nos! 
+                    <a href="">Facebook</a>
+                    <a href="">Linkedin</a>
+                </h2>
+            </div>
+        </footer>
+    </div>
+</body>
+    
+</html>
